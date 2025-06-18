@@ -8,9 +8,9 @@ const openai = createOpenAI({
 
 // GitHub Gist URLs for translation prompts
 const PROMPT_URLS = {
-  ja: "https://gist.githubusercontent.com/eresytter/aaad090927b325ab7e19c0036b714330/raw",
-  zh: "https://gist.githubusercontent.com/eresytter/bb712687dc2a143c653aa092577c84bd/raw",
-  ko: "https://gist.githubusercontent.com/eresytter/7152f6eec7e71fdb29e5000b40418d2f/raw",
+  ja: "https://gist.githubusercontent.com/etalasaccounts/da89693d82c63326b4751f3030e61dfd/raw",
+  zh: "https://gist.githubusercontent.com/etalasaccounts/e7effd8f7789fa92a4bfa76685665e52/raw",
+  ko: "https://gist.githubusercontent.com/etalasaccounts/42a46f928bcae38b9ca1f47b6e95b48f/raw",
 }
 
 // Cache for prompts to avoid fetching them repeatedly
