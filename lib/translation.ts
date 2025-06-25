@@ -51,7 +51,7 @@ export async function translateText(text: string, targetLanguage: string): Promi
     const prompt = await fetchPrompt(targetLanguage)
 
     const { text: translatedText } = await generateText({
-      model: openai("gpt-4o"),
+      model: openai("gpt-4.1-mini"),
       system: prompt,
       prompt: text,
     })
